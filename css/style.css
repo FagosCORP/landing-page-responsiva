@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "sans-serif";
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     list-style: none;
     text-decoration: none;
 }
 body {
-    max-width: 1920px;
+    max-width: 100vw;
     max-height: 1080px;
 }
 header {
@@ -33,4 +33,166 @@ a:visited {
 }
 .mobile {
     display: none;
+}
+section {
+    width: 100%;
+}
+.banner-principal {
+    height: 40%;
+    background: #E9E9E9;
+    color: #A72F5AFF;
+    font-weight: 100;
+    font-size: 38px;
+    text-align: center;
+    font-style: initial;
+}
+.titulo {
+    padding: 50px 0px 50px 0px;
+}
+.formulario {
+    padding: 0px 0px 50px 0px;
+}
+input[type="email"] {
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    color: #a20b00;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid #A72F5AFF;
+}
+input[type="email"]:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input[type="submit"] {
+    width: 120px;
+    background: #A72F5AFF;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid #A72F5AFF;
+}
+input[type="submit"]:hover, :focus {
+    opacity: 0.5;
+}
+.autor {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #A72F5AFF;
+}
+.perfil-autor {
+    padding: 10px;
+}
+.perfil-autor img {
+    width: 100px;
+    height: 100px;
+}
+.descricao-autor h2 {
+    margin-bottom: 10px;
+}
+.descricao-autor {
+    color: white;
+}
+.especialidades {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #E9E9E9;
+}
+.title {
+    padding: 10px 0 20px 0;
+    color: #A72F5AFF;
+    text-align: center;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+.box-js i {
+    color: #d2c347;
+}
+.box-html i {
+    color: #f43700;
+}
+.box-css i {
+    color: #0073dd;
+}
+.boxes p {
+    padding: 20px;
+    color: #A72F5AFF;
+}
+.boxes>div {
+    padding-right: 30px;
+}
+.depoimentos {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #A72F5AFF;
+}
+.depoimentos .title {
+    color: white;
+}
+.depoimento-single {
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 30px 0px 30px;
+}
+.nome-autor {
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.servico {
+    background: #A72F5AFF;
+}
+.servicos-box ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #A72F5AFF;
+    color: white;
+    padding: 20px;
+}
+footer {
+    background: #A72F5AFF;
+    color: white;
+    text-align: center;
+}
+.servico a {
+    font-size: 10px;
+    font-weight: lighter;
+}
+.boxes h3, p {
+    margin: 0 30px;
+}
+.box-html>h3, .box-css>h3, .box-js>h3 {
+    text-align: center;
+}
+.box-html, .box-css, .box-js {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-html>i, .box-css>i, .box-js>i {
+    text-align: center;
+}
+.box-html>p, .box-css>p, .box-js>p {
+    color: black;
+    text-align: center;
 }
